@@ -1,5 +1,9 @@
 <h1> Welcome to Super Forum </h1>
-
+<ul>
+  {{#each model as |topic|}}
+    {{topic-tile topic=topic}}
+  {{/each}}
+</ul>
 
 
 {{#link-to 'about'}}About{{/link-to}} |
