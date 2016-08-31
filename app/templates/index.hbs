@@ -1,7 +1,7 @@
 <h1> Welcome to Super Forum </h1>
 <ul>
   {{#each model as |topic|}}
-    {{topic-tile topic=topic}}
+    {{topic-tile topic=topic destroyTopic="destroyTopic"}}
   {{/each}}
 </ul>
 

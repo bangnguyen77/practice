@@ -1,2 +1,5 @@
-<h2>{{topic.title}}</h2>
-<h4>{{topic.details}}</h4>
+<li>
+  <h2>{{topic.title}}</h2>
+  <h4>{{topic.details}}</h4>
+  <button type="button" class="btn btn-danger" {{action 'delete' topic}}>Delete</button>
+</li>
